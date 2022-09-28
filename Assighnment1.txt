@@ -1,0 +1,99 @@
+                                                                                                      Module 1 wd.html
+
+
+1.Are the HTML tags and elements the same thing?
+   Ans: No.Html tags are the lables or entity  that create web  pages.
+             Html elements is an  opening start tag    ex=(<p>) content and (</p>)=closing tag.
+
+2.What are tags and attributes in HTML?
+    Ans:  Tag is a way of representing an Html element in the program,while an attribute is a way of 
+                discribing the characteristics of an Html element.
+ 
+3.What are void elements in HTML?
+    Ans: viod element  is an element who have only start tags not  closing tag.
+              But viod element can have attributes .
+              the list of void elements in html <br >, <hr>,<input>,<img>,<embed>
+   
+4.What are Html   entities?
+ Ans: An html entity is a piece of text that beings with an empersand (&)and ends with a semicolon (;).
+          For ex= symbol                 description              entity name  
+                                  "                       quatation mark              & quat;
+                                  '                        apostrophe                      & apos;
+                                 &                       ampersand                       & amp;
+                                 <                        less than                            & lt;
+          
+5.What are different types of lists in HTML?
+Ans: There are three types of lists :
+           - un-orderd list:-Used to group of related items in no perticular order. 
+           - orderd list :- Used  to group a items in a spacific order.
+           - description list:- Used to display name /value with its terms and conditions.
+       
+ 
+   
+
+7.What is the difference between the 'id' attribute and the 'class'
+attribute of HTML elements? 
+ Ans:  the difference between "id" and "class" is that "id" is unique in page and "class"  selector can apply to multiple elements
+
+8.What are the varios formatting tags in HTML?
+Ans:<b>  -  Bold-text
+         <i>  -  italic-text
+         <mark>  - marked text
+         <sub> -   subcription text
+         <sup> -  superscript text
+
+9.How is cell padding different from cell spacing?
+Ans: Cell padding is defines the space between table cells border and the contain in it. 
+          Cell spacing attribute is places space around each cell in the table.
+ 
+10.How can we club two or more rows or columns into a single row or column in an html table?
+ Ans: we can merge two or more table cells in a colomn using colspan attribute and rows using Rowspan
+          attribute .both the attribute will be inside the <td> tag.
+
+11.What is the difference between a block-level element and an inline element?
+   Ans: Block elements start from a new line and takes up the full width available .
+             An inline element does not start on a new line and it only takes up as much width as necessary.
+               
+
+12.How to create a hyperlink in HTML?
+ Ans: To create a hyperlimk in html page used <a> and </a> tags. this tags usedto define the links.
+          <a> tag indicates where the hyperlinks starts and </a> indicates the ends.  
+
+13.What is the use of an iframe tag?  
+ Ans: Iframe spacifies an inline frame .that loads another Html page within the document .
+           it essentially put another web page with the parent page. they used for advertisements,
+          embedded videos, web analyties and intractive content.    
+
+14.What is the use of a span tag? Explain with example?
+ Ans: The <span > tag is an inline container used to mark up a part of a text
+           or a part of a document. The <span> tag is easily styled by css or manipulated with javascript 
+         using the class or id attribute. the <span> tag is much like the <div> element,but <div> is a
+         block-level element and <span> tag is an inline element.
+     
+15.how to insert a picture into a background  image of a web page?
+ Ans: The most common & simple way to add background image is using background image attribute inside 
+the <body> tag using css property we can also add background image in a web page.
+
+16.How are active links different from normal  links?
+ Ans:  Normal links are links which are there on the page and have not been clicked yet.
+            Active links are those links ,which have just been clicked at that instant.
+
+17.What are the different tags  to saparate sections of text?
+ Ans: <br> tag , <p> tag,  and <blockquote> are the three tags used to saparate sections on websites.
+ 
+
+18.What is SVG?
+ Ans: The svg stands for scalable vector graphics. svg is used to define vector-based graphics 
+           for the web. 
+
+19.What is difference between HTML and XHTML?
+ Ans: Html is sqml based while .
+           XHTML is xml based.They are like two sides of the same coin.
+           Xhtml was drived from html to conform to Xml standards.
+  
+20.What are logical and physical tags in HTML? 
+  Ans: Logical tags are used to provide information by giving the special importance
+            to the taxt. for instance,<em> tag is used to emphasize the text by representing  it in italic format.
+            physical tags are used to style the content only .for instance, <i> tag is used to display the text in italic format.
+ 
+            
