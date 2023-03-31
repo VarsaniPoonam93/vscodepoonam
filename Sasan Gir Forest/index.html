@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@700&family=Libre+Baskerville:wght@700&family=Merriweather:wght@700&family=Oswald:wght@200&family=Roboto+Mono:wght@500&family=Rubik:wght@500&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <nav class="navbar bg h-nav">
+    <div class="nav-list v-class-resp" id="myDIV">
+      <div class="logo"><img src="../javascript/download.jpeg" alt="logo"></div>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">search</button>
+    </div>
+    <div onclick="myFunction()" class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+  </nav>
+  <section class="bg firstsec">
+    <div class="box-main">
+
+      <div class="first-half">
+        <p class="big-text">Gir Forest national park,Gir Wildlife Sanctuary, Gujarat India </p>
+        <p class="sm-text">Gir National Park and Wildlife Sanctuary, also known as Sasan Gir, is a forest, national
+          park, and wildlife sanctuary near Talala Gir in Gujarat, India. </p>
+        <div class="butn">
+          <button class="btn">subscribe</button>
+          <button onclick="vidFunction()" class="watch-video">watch
+            video</button>
+          <video id="myVideo" width="320" height="240" controls autoplay>
+            <source src="../javascript/lionvideo.mp4" type="video/mp4">
+
+
+          </video>
+        </div>
+      </div>
+      <div class="sec-half">
+        <div class="img"><img src="../javascript/p1.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="sec-left">
+    <div class="pera">
+      <p class="sm-text">HOW TO BOOK SAFARI AT</p>
+      <p class="big-text"> SASAN GIR NATIONAL PARK ONLINE?</p>
+      <p class="sm-text">It Is Always Advisable And Good Practice To Get Booked Safari Permits Well In Advance To Avoid
+        Last Time Rush And Lack Of Availability. As Per The Rules And Regulations Of Forest Department Online Safari
+        Booking Procedure At The Gir National Park Is Fully Managed By Forest Officials.
+
+    </div>
+    <div class="img2">
+      <img src="../javascript/l2.jpeg" alt="" class="imgfluid">
+
+    </div>
+  </section>
+  <section class="sec-left">
+    <div class="img2">
+      <img src="../javascript/l3.jpeg" alt="">
+
+    </div>
+    <div class="pera">
+      <p class="big-text"> Devalia Safari</p>
+      <p class="sm-text">Devalia is interpretation zone. In this you will definitely see lions/lioness. It is a open zoo
+        where animals are allowed to roam freely around in a restricted area under supervision, and people are allowed
+        to watch them from a bus or a jeep.
+
+        If you have less time and want to see a lion and a hyena and deers and fox and leapord in open field then
+        devalia is best </p>
+    </div>
+  </section>
+  <section class="sec-left">
+    <div class="pera">
+      <p class="sm-text">Reaching Devalia by Road</p>
+      <p class="big-text">How To Reach Devalia Safari Park ?</p>
+      <p class="sm-text">Devalia Safari Park is situated approximately at a distance of 56 kilometer from Junagarh The
+        main city Ahmedabad is located at a distance of 374 kilometer and 158 kilometer from Rajkot. The reception
+        centre is made at Devalia Park & Sasan Gir and it has also forest guest house maintained by the Gujarat state
+        forest department nearby the railway station.</p>
+    </div>
+    <div class="img2">
+      <img src="../javascript/l6.jpeg" alt="">
+    </div>
+  </section>
+  <section class="contect">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+      <input type="text" name="name" id="name" placeholder="Enter Your Name">
+      <input type="text" name="phone" id="phone" placeholder=" Enter Your Phone">
+      <input type="text" name="email" id="email" placeholder=" Enter Your Email">
+      <textarea class="add" name="text" id="text" cols="30" rows="10">Address</textarea>
+      <button class="btn-submit">Submit</button>
+    </div>
+  </section>
+  <script src="responsive.js"></script>
+</body>
+
+</html>
